@@ -19,5 +19,5 @@ path = "src/lib.rs"
 [dependencies]
 toml = "*"
 rustc-serialize = "*"
-rand = "*"
+rand = { version = "0.5", features = ["stdweb"] }
 lazy_static = "*"
